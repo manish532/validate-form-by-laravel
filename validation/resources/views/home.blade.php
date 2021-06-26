@@ -12,7 +12,7 @@ user-details
 <div class="container bg-light margin border border-1 mt-4">
 <form class="p-4" method="POST" action="form">
 
-<h2>mmmmmmmmmmmmmmmmmmm</h2>
+
 @csrf 
 Name : <input type="text" class="form-control inp_margin" palaceholer="enter name here" name="name">
 @error('name')<small class="text-danger">{{$message}}</small></br>@enderror
